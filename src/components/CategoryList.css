@@ -1,0 +1,17 @@
+/* CategoryList.css */
+.category-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.category-item {
+  background-color: var(--input-background);
+  border: 1px solid var(--input-border-color);
+  border-radius: 15px;
+  padding: 10px 20px;
+  font-size: 0.9rem;
+  color: var(--text-color);
+}

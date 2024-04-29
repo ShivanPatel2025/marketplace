@@ -1,0 +1,31 @@
+/* ProductCard.css */
+.product-card {
+  background-color: var(--background-color);
+  border: 1px solid var(--input-border-color);
+  border-radius: 8px;
+  margin: 1rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-image {
+  width: 100%;
+  object-fit: cover;
+}
+
+.product-info {
+  padding: 1rem;
+}
+
+.product-name {
+  color: var(--text-color);
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.product-price {
+  color: var(--primary-color);
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
